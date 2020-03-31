@@ -12,7 +12,7 @@ Faire marcher docker sur windows (sans utiliser [docker windows](https://docs.do
 
 1. Créer un dossier (appelé par exemple `VAGRANT`) sur l'ordinateur
 
-2. Coller dans ce dossier le fichier que je vais pas oublier de mettre ici bien sur
+2. Coller dans ce dossier le [Vagrantfile](/Vagrantfile)
 
 3. Ouvrir l'invité de commande Windows (`cmd` dans la barre de recherche)
 
@@ -33,3 +33,9 @@ Faire marcher docker sur windows (sans utiliser [docker windows](https://docs.do
 1. `exit` pour quiter la session ssh
 
 2. `vagrant halt` pour arrêter la machine virtuelle
+
+## Infos
+
+1. Il est possible d'éditer le Vagrantfile pour modifier des options comme la liste des ports transférés entre la vm et l'hôte
+
+2. Faire très attention aux différences de fin de ligne entre windows et linux
